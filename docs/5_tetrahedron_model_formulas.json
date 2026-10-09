@@ -1,0 +1,29 @@
+{
+  "status": "phenomenological toy model; constants are image-derived design references, not measured physical constants",
+  "parameters": {
+    "N": 5,
+    "angular_deficit_deg": 7.36,
+    "V0": 146.82,
+    "edge_loss": 0.06666666666666667,
+    "coupling_retention": 0.9333333333333333,
+    "alpha_inverse_reference": 137.036,
+    "dt": 0.02,
+    "duration": 80.0,
+    "seed": 7
+  },
+  "state_variables": {
+    "theta_i": "phase of tetrahedron i",
+    "T_shift": "dimensionless thermal shift",
+    "R": "coherence order parameter |mean(exp(i theta_i))|"
+  },
+  "equations": {
+    "phase_dynamics": "dtheta_i/dt = omega_i(T) + (K/N)*sum_j sin(theta_j-theta_i) + gamma_i*delta/(2*pi)*cos(theta_i-phi_drive_i)",
+    "thermal_shift": "dT/dt = heat_gain*((1-R)+edge_loss/4) - cooling*T",
+    "frequency_shift": "omega_i(T) = omega0_i + 0.10*gamma_i*delta/pi + thermal_coeff*T",
+    "equatorial_choke": "C_eq = 1 - mean( sigmoid((|latitude|-0.30)/0.06) )",
+    "polar_jets": "J_N/S = V0*(1-edge_loss)*R*mean(exp(-((latitude-(+/-)pi/2)/0.32)^2))*exp(-0.20*T)",
+    "energy_proxy": "E = V0*(0.55+0.45R)*exp(-edge_loss)*(1+0.02T)",
+    "berry_winding": "B = sum_i gamma_i*wrap(theta_i-theta_i(0))/(2*pi)"
+  },
+  "interpretation": "The equatorial choke is an imposed latitude-dependent transmission filter and the polar jets are diagnostic emission proxies. No claim of propulsion, quantum-vacuum energy extraction, or experimental validation is made."
+}

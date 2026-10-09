@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "SDF Lattice Master: Quantum Cavity Dynamics and Geometric Frustration Engine"
+version: 0.3.4
+date-released: 2026-10-08
+authors:
+  - family-names: "Gachkar"
+    given-names: "Adel"
+    affiliation: "Islamic Azad University, Urmia"
+    orcid: "https://orcid.org/0009-0006-7713-6004"
+license: "MIT"
+repository-code: "https://github.com/adelgachkar/SDF-Lattice-Master"
+abstract: "A computational framework for 5-tetrahedron quantum cavity dynamics, Berry phase/torque coupling, and lattice stress relaxation in frustrated vacuum geometries."
+keywords:
+  - "Quantum Lattice Dynamics"
+  - "Berry Torque"
+  - "Geometric Frustration"
+  - "Structural Delineation Framework"
+  - "Fine-structure Constant"

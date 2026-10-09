@@ -1,0 +1,362 @@
+{
+    "version": "v0.4_resilience_test",
+    "nodes": [
+        {
+            "id": "void_0",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 1.0884500375178272,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_1",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 0.969523829499385,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_2",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 1.001529222943797,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_3",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 1.0481980992866058,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_4",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 0.9673712967092155,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_5",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 1.0712798246926336,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_6",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 1.024977660031813,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_7",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 1.0560884594284758,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_8",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 1.0115858189636224,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_9",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 1.07138697549076,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_10",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 0.9496341703500116,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_11",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 1.0439255439744408,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_12",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 0.9604361017275042,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_13",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 0.9189908545562754,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_14",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 0.9285978207923632,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_15",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 0.9713996956713908,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_16",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 1.093296601328837,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_17",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 1.0632080744113828,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_18",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 1.0320321956696152,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        },
+        {
+            "id": "void_19",
+            "type": "cavity_resilience",
+            "params": {
+                "coupling_strength": 1.0242467998575358,
+                "v0": 1.0,
+                "r_wall": 0.85,
+                "k_elastic": 1.2,
+                "gamma_v": 0.1,
+                "kappa_v": 0.05,
+                "dt": 0.01
+            }
+        }
+    ],
+    "connections": [
+        {
+            "source": "void_0",
+            "target": "void_1",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_1",
+            "target": "void_2",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_2",
+            "target": "void_3",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_3",
+            "target": "void_4",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_4",
+            "target": "void_5",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_5",
+            "target": "void_6",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_6",
+            "target": "void_7",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_7",
+            "target": "void_8",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_8",
+            "target": "void_9",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_9",
+            "target": "void_10",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_10",
+            "target": "void_11",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_11",
+            "target": "void_12",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_12",
+            "target": "void_13",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_13",
+            "target": "void_14",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_14",
+            "target": "void_15",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_15",
+            "target": "void_16",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_16",
+            "target": "void_17",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_17",
+            "target": "void_18",
+            "type": "supercell_link"
+        },
+        {
+            "source": "void_18",
+            "target": "void_19",
+            "type": "supercell_link"
+        }
+    ]
+}

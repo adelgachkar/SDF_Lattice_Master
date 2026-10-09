@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sdf-lattice"
+version = "0.3.4"
+description = "SDF Lattice Framework for Cavity Dynamics and Strain Fields"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Adel Gachkar", email = "gachkar@iaurmia.ac.ir" },
+]
+maintainers = [
+    { name = "Adel Gachkar", email = "gachkar@iaurmia.ac.ir" },
+]
+keywords = [
+    "quantum-lattice",
+    "sdf",
+    "berry-phase",
+    "cavity-dynamics",
+    "strain-fields",
+    "quantum-foam",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "pandas>=2.0.0",
+]
+
+[project.optional-dependencies]
+plot = [
+    "matplotlib>=3.7.0",
+]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+all = [
+    "matplotlib>=3.7.0",
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/adel-gachkar/sdf-lattice"
+"Documentation" = "https://github.com/adel-gachkar/sdf-lattice/docs"
+"Repository" = "https://github.com/adel-gachkar/sdf-lattice"
+"ORCID" = "https://orcid.org/0009-0006-7713-6004"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sdf_lattice*"]
+exclude = ["tests*", "examples*", "docs*"]

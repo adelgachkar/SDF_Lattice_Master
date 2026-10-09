@@ -1,0 +1,20 @@
+{
+    "simulation_parameters": {
+        "steps_simulated": 4001,
+        "duration_s": 80.0,
+        "dt": 0.02
+    },
+    "final_metrics": {
+        "coherence_order_r": 0.99335,
+        "thermal_shift_t": 0.012625,
+        "equatorial_choke": 0.198784,
+        "net_polar_jet_total": 54.443062,
+        "stored_energy_proxy": 136.97543,
+        "net_berry_winding": -0.416511
+    },
+    "output_artifacts": {
+        "csv_file": "5_tetrahedron_simulation_timeseries.csv",
+        "plot_file": "5_tetrahedron_quantum_cavity_engine_overview.png",
+        "full_output_dir": "C:\\Users\\adel\\Documents\\SDF_Lattice_Master_v0.3.3\\SDF_Lattice_Master_v0.3.4\\examples\\output"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "title": "SDF Lattice Master: Quantum Cavity Dynamics and Geometric Frustration Engine",
+    "version": "0.3.4",
+    "creators": [
+      {
+        "name": "Gachkar, Adel",
+        "affiliation": "Islamic Azad University, Urmia",
+        "orcid": "0009-0006-7713-6004"
+      }
+    ],
+    "description": "Simulation framework for 5-tetrahedron quantum cavity engines, Berry torque dynamics, retarded causality, and void-relaxation mechanics.",
+    "access_right": "open",
+    "license": "mit-license",
+    "keywords": [
+      "Quantum Lattice",
+      "Berry Torque",
+      "Frustrated Geometry",
+      "Fine-structure Constant",
+      "SDF"
+    ],
+    "upload_type": "software"
+  }
+  

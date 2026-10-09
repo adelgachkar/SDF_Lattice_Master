@@ -1,0 +1,16 @@
+# Conceptual node contract; requires a YAML/JSON Schema validator for enforcement.
+type: object
+required: [id, type]
+properties:
+  id:
+    type: string
+  type:
+    type: string
+  params:
+    type: object
+  input_ports:
+    type: array
+    items: {type: string}
+  output_ports:
+    type: array
+    items: {type: string}

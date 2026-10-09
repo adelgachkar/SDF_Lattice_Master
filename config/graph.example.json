@@ -1,0 +1,23 @@
+{
+  "version": "0.1",
+  "nodes": [
+    {
+      "id": "source",
+      "type": "passthrough",
+      "params": {}
+    },
+    {
+      "id": "sink",
+      "type": "passthrough",
+      "params": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "source",
+      "source_port": "value",
+      "target": "sink",
+      "target_port": "value"
+    }
+  ]
+}
