@@ -9,8 +9,9 @@ authors:
     affiliation: "Islamic Azad University, Urmia"
     orcid: "https://orcid.org/0009-0006-7713-6004"
 license: "MIT"
-repository-code: "https://github.com/adelgachkar/SDF-Lattice-Master"
+repository-code: "https://github.com/adelgachkar/SDF_Lattice_Master"
 abstract: "A computational framework for 5-tetrahedron quantum cavity dynamics, Berry phase/torque coupling, and lattice stress relaxation in frustrated vacuum geometries."
+doi: "10.5281/zenodo.23271143"
 keywords:
   - "Quantum Lattice Dynamics"
   - "Berry Torque"

@@ -66,6 +66,8 @@ Register the node in `sdf_lattice/registry.py` if it should be available to decl
 
 See `CITATION.cff`. Contact: adelgachkar@gmail.com.
 
+**Zenodo (first record):** Concept DOI [10.5281/zenodo.23271142](https://doi.org/10.5281/zenodo.23271142) · v0.3.4 version DOI [10.5281/zenodo.23271143](https://doi.org/10.5281/zenodo.23271143)
+
 ## License
 
 Licensed under the MIT License; see `LICENSE`.
