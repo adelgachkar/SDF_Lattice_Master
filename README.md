@@ -1,6 +1,10 @@
-# SDF Lattice Master v0.3.4
+# SDF Lattice Master v0.3.5
 
-A framework for Structured Deformation Fields (SDF), Void Couplings, Berry Phase Dynamics, and Topological Quantum Resonator Networks.
+[![DOI](https://zenodo.org/badge/1412325942.svg)](https://doi.org/10.5281/zenodo.23382706)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+A framework for Structured Deformation Fields (SDF)...
+
 
 ## Overview
 
