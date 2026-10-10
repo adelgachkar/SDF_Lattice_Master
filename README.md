@@ -1,6 +1,6 @@
 # SDF Lattice Master v0.3.5
 
-[![DOI](https://zenodo.org/badge/1412325942.svg)](https://doi.org/10.5281/zenodo.23382706)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23382706-blue.svg)](https://doi.org/10.5281/zenodo.23382706)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A framework for Structured Deformation Fields (SDF)...
